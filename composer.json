@@ -9,6 +9,7 @@
         "php": "^8.2",
         "btumbleson/blade-fontawesome-test": "dev-main",
         "laravel/framework": "^11.44.2",
+        "laravel/horizon": "^5.31",
         "laravel/tinker": "^2.9",
         "league/flysystem-aws-s3-v3": "^3.0"
     },

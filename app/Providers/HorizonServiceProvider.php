@@ -29,10 +29,9 @@ class HorizonServiceProvider extends HorizonApplicationServiceProvider
     {
         Gate::define('viewHorizon', function ($user) {
             
-            return true; // hard code horizon panel is accessible in prod to anyone
-            // return in_array($user->email, [
-            //     //
-            // ]);
+            return in_array($user->email, [
+                'btumbleson3@gmail.com'
+            ]);
         });
     }
 }
